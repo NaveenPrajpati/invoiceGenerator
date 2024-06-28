@@ -1,0 +1,47 @@
+.invoice {
+  max-width: 800px;
+  min-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.section,
+.items {
+  margin-bottom: 20px;
+}
+
+.section label,
+.item label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.section input,
+.section textarea,
+.item input,
+.item textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.item {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
